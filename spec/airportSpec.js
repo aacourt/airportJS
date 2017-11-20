@@ -1,6 +1,6 @@
-describe("A test", function() {
-    it("should pass", function() {
-      var passing = true;
-      expect(passing).toBe(true);
+describe("Airpot", function() {
+    it("should exit", function() {
+      var airport = new Airport();
+      expect(airport).toBeTruthy();
     });
-  );
+});
